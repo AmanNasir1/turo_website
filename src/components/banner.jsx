@@ -5,9 +5,6 @@ export const Banner = () => {
     return (
 
         <div className="banner">
-            <div className="bannerImage">
-                <img src="images/banner.jpg" alt="" />
-            </div>
             <div className="bannerContent">
                 <form >
                     <div className="formContent">
@@ -22,14 +19,14 @@ export const Banner = () => {
                             <label htmlFor="">From
                             </label>
                             <div>
-                                <input type="datetime-local" value="2018-06-12T19:30" />
+                                <input type="datetime-local" defaultValue="2018-06-12T19:30" />
                             </div>
                         </div>
                         <div className="cityLast city">
                             <label htmlFor="">Until
                             </label>
                             <div>
-                                <input type="datetime-local" value="2018-06-12T19:30" />
+                                <input type="datetime-local" defaultValue="2018-06-12T19:30" />
                             </div>
                         </div>
                         <div className="search">
